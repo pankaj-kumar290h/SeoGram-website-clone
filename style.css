@@ -7,7 +7,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .nav-bar{
-    width: 70%;
+    width: 60%;
     margin: auto;
     
 }
@@ -29,10 +29,10 @@ body{
 .header{
     font-family: Arial, Helvetica, sans-serif;
     background-color:rgb(246, 245, 252);
-    width: 70%;
+    width: 60%;
     position: relative;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 20px;
     color: #747192;
     padding-top: 60px;
     margin-top: 60px;
@@ -65,4 +65,40 @@ body{
 }
 .btton:hover{
     background-color:#747192; ;
+}
+
+/* services */
+.services{
+    width:60%;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-body{
+    text-align: center;
+
+}
+
+/* About us */
+.about{
+    width: 60%;
+    position: relative;
+    margin: auto;
+    margin-top: 150px;
+}
+.about-img{
+    padding-left: 40px;
+}
+.aboutline{
+    width:10%;
+    border: 3px solid green;
+}
+.about-h1{
+    color: #747192;
+}
+.about-btn{
+    width: 20%;
 }
